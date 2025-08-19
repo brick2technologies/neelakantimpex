@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://www.neelakantimpex.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/products.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/certifications.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Product Category Pages -->
+  <url>
+    <loc>https://www.neelakantimpex.com/basmati-rice.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/non-basmati-rice.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/organic-rice.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/sugar.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/oils.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/corn.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/agroproducts.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Example for Product Detail Pages (Basmati Rice Types) -->
+  <url>
+    <loc>https://www.neelakantimpex.com/products/1121-basmati-rice.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/products/traditional-basmati-rice.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.neelakantimpex.com/products/pusa-basmati-rice.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <!-- You can keep adding all 16 basmati, 16 non-basmati, 16 organic rice products in the same format -->
+
+</urlset>

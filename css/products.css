@@ -1,0 +1,334 @@
+ body {
+      background: url('../images/rice\ banner2.jpg') no-repeat center center/cover !important;
+      font-family: sans-serif;
+  
+    }
+
+/* specifications highlighted */
+
+.specifications {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap; 
+}
+
+.specifications li {
+    padding: 4px 0;
+     overflow: hidden;
+     align-items: center;
+     text-align: justify;
+}
+
+.specifications .label {
+    font-weight: bold;      /* Make label bold */
+    color: #bd8661;         /* Highlight color */
+    margin-right: 5px;      /* Space before value */
+}
+
+
+    .basmati-rice-section {
+      background-color: rgba(0, 0, 0, 0.65);
+      padding: 60px 0;
+    }
+
+    #our-basmat{
+        margin-top: 40px;
+        color: #bd8661;
+    }
+    .basmati-rice-section h2 {
+      color: #fff;
+      margin-bottom: 40px;
+    }
+
+    .product-card {
+      position: relative;
+      overflow: visible;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .product-card img:hover {
+      transform: scale(1.03);
+    }
+
+    .product-info {
+      position: absolute;
+      top: 0;
+      left: 85%;
+      width: 250px;
+      background-color: #fff;
+      padding: 12px;
+      border-radius: 6px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+      z-index: 10;
+    }
+
+    .product-card:hover .product-info {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .product-info h6 {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #111;
+    }
+
+    .product-info ul {
+      padding-left: 0rem;
+      margin: 0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .product-info ul li {
+      margin-bottom: 5px;
+    }
+
+    .product-title {
+      color: #fff;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .nonbasmati-rice-section {
+  background: url('../images/istockphoto-2051074466-2048x2048.jpg') no-repeat center center/cover;
+  position: relative;
+  padding: 60px 0;
+}
+
+.nonbasmati-rice-section::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.65); /* dark overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.nonbasmati-rice-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.prod-desc{
+  color:#fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.specifications li{
+   font-size: 1rem;
+   
+}
+.about-basmat{
+  font-size: 1.8rem;
+  color: #bd8661;
+  margin-top: 130px;
+  text-align: center;
+  font-weight: bold;
+}
+.basmat-para{
+  color:#fff;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.organic-rice-section {
+  background: url('../images/nature-landscape-green-water-wallpaper-preview.jpg') no-repeat center center/cover;
+  position: relative;
+  padding: 60px 0;
+}
+
+.organic-rice-section::before {
+  content: "";
+  background-color: rgba(9, 9, 9, 0.65); /* dark overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.organic-rice-section .container {
+  position: relative;
+  z-index: 1;
+}
+.sugar-section {
+  background: url('../images/sugar\ bg.jpg') no-repeat center center/cover;
+  position: relative;
+  padding: 60px 0;
+}
+
+.sugar-section::before {
+  content: "";
+  background-color: rgba(47, 46, 46, 0.65); /* dark overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.sugar-section .container {
+  position: relative;
+  z-index: 1;
+}
+.about-sugar{
+  font-size: 1.8rem;
+  color: #bd8661;
+  margin-top: 130px;
+  text-align: center;
+  font-weight: bold;
+}
+.sugar-para{
+  color:#fff;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.oil-section {
+  background: url('../images/oils\ bg\ for\ backdrop.jpg') no-repeat center center/cover;
+  position: relative;
+  padding: 60px 0;
+}
+
+.oil-section::before {
+  content: "";
+  background-color: rgba(17, 17, 17, 0.65); /* dark overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.oil-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.about-oils{
+    font-size: 1.8rem;
+    color: #bd8661;
+    margin-top: 130px;
+    text-align: center;
+    font-weight: bold;
+}
+.oils-para{
+  color:#fff;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.corn-section {
+  background: url('../images/corn\ bg.jpg') no-repeat center center/cover;
+  position: relative;
+  padding: 60px 0;
+  opacity: -30px;
+}
+
+.corn-section::before {
+  content: "";
+  background-color: rgba(3, 3, 3, 0.65); /* dark overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.corn-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.about-corn{
+    font-size: 1.8rem;
+    color: #bd8661;
+    margin-top: 130px;
+    text-align: center;
+    font-weight: bold;
+}
+.corn-para{
+  color:#fff;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.agro-section {
+  background: url('../images/wheat-with-cloud.jpg') no-repeat center center/cover;
+  position: relative;
+  padding: 60px 0;
+}
+
+.agro-section::before {
+  content: "";
+  background-color: rgba(3, 3, 3, 0.65); /* dark overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.agro-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+
+.section-title{
+      margin-top: 200px;
+}
+.section-subtitle{
+     color: #fff;
+     font-size: larger;
+}
+
+
+/* Mobile tap-to-show description */
+@media (max-width: 768px) {
+  .product-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .product-item .product-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Show when tapped */
+  .product-item.show-desc .product-hover {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+

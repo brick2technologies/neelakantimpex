@@ -1,0 +1,207 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Hero Section */
+    .hero-overlay {
+      background: url('../images/grains\ banner.jpg') center/cover no-repeat;
+      min-height: 420px;
+      color: white;
+      text-align: center;
+      position: relative;
+      padding: 100px 20px;
+    }
+
+    .hero-overlay::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    .welc-txt{
+      color: #bd8661;
+    }
+    .about-txt{
+      color: #bd8661;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+    #found-img{
+      height: 600px;
+      width: 520px;
+    }
+    .found-txt{
+      font-size: 18px;
+      text-align: justify;
+
+    }
+
+    /* Founder Section */
+    .founder-section img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    /* Mission Section */
+    .mission-section {
+    background: url('../images/sweetcorn\ background.jpg') center/cover no-repeat;
+    color: white;
+    padding: 60px 20px;
+    position: relative;
+}
+
+  .mission-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.mission-section .container {
+  position: relative;
+  z-index: 2;
+}
+.text-white{
+  font-size: 17px;
+  text-align:justify;
+}
+    
+
+    /* Stats Box */
+    .stats-box {
+      background: #bd8661;
+      border-radius: 10px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Team Section */
+    .team-member img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+
+/* mobile adjustments */
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  /* Hero Section */
+  .hero-overlay {
+    min-height: 300px;
+    padding: 60px 15px;
+  }
+
+  .about-txt {
+    font-size: 1.5rem;
+  }
+
+  /* Founder Image - make it scale */
+  #found-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .found-txt {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 10px;
+  }
+
+  /* Mission Section */
+  .mission-section {
+    padding: 40px 15px;
+  }
+
+  .text-white {
+    font-size: 15px;
+  }
+
+  /* Section Title */
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  /* Stats Box */
+  .stats-box {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Team images */
+  .team-member img {
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-txt {
+    font-size: 1.3rem;
+  }
+  .found-txt {
+    font-size: 15px;
+  }
+}
+
+/* Push hero/banner below fixed navbar in mobile */
+@media (max-width: 991px) {
+  .hero-overlay,
+  .about-hero,
+  #banner1, #banner2, #banner3, #banner4 {
+    margin-top: 60px; /* match navbar height */
+  }
+}
+
+
+/* Tablet view adjustments (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Founder image bigger in tablet */
+  #found-img {
+    max-width: 350px;
+    width: 150%;
+    height: 480px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Mission & Vision text justified */
+  .mission-section .text-white {
+    text-align: justify;
+  }
+}
+
+
+@media (max-width: 766px) {
+  #found-img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 350px; /* tablet size */
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  #found-img {
+    max-width: 250px; /* smaller in mobile */
+  }
+}
+
