@@ -1,5 +1,5 @@
  body {
-      background: url('../images/rice\ banner2.jpg') no-repeat center center/cover !important;
+      background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755751632/basmati_rice_banner_ntquyp.jpg') no-repeat center center/cover !important;
       font-family: sans-serif;
   
     }
@@ -102,7 +102,7 @@
     }
 
     .nonbasmati-rice-section {
-  background: url('../images/istockphoto-2051074466-2048x2048.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755751947/nonbasmati_banner_lq3lkp.jpg') no-repeat center center/cover;
   position: relative;
   padding: 60px 0;
 }
@@ -145,7 +145,7 @@
   text-align: justify;
 }
 .organic-rice-section {
-  background: url('../images/nature-landscape-green-water-wallpaper-preview.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755752035/organic_rice_bg_isajzr.jpg') no-repeat center center/cover;
   position: relative;
   padding: 60px 0;
 }
@@ -166,7 +166,7 @@
   z-index: 1;
 }
 .sugar-section {
-  background: url('../images/sugar\ bg.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755752063/sugar_bg_svnyfw.jpg') no-repeat center center/cover;
   position: relative;
   padding: 60px 0;
 }
@@ -199,7 +199,7 @@
   text-align: justify;
 }
 .oil-section {
-  background: url('../images/oils\ bg\ for\ backdrop.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755752148/oils_bg_y32ezg.jpg') no-repeat center center/cover;
   position: relative;
   padding: 60px 0;
 }
@@ -233,7 +233,7 @@
   text-align: justify;
 }
 .corn-section {
-  background: url('../images/corn\ bg.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755752788/corn_banner_q0iqyn.jpg') no-repeat center center/cover;
   position: relative;
   padding: 60px 0;
   opacity: -30px;
@@ -268,7 +268,7 @@
   text-align: justify;
 }
 .agro-section {
-  background: url('../images/wheat-with-cloud.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755752631/agroproducts_bg_me5l1t.jpg') no-repeat center center/cover;
   position: relative;
   padding: 60px 0;
 }

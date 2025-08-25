@@ -18,12 +18,13 @@
     <!-- //online-fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <!--web tab icon-->
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/neelakant logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/di1bfo7ma/image/upload/v1755774681/neelakant_logo_jcks7i.png">
 	<!--Bootstrap link-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!--bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="preload" as="image" href="https://res.cloudinary.com/di1bfo7ma/image/upload/v1755753231/contact_bg_qyxjhj.jpg" type="image/jpeg">
 </head>
 <body>
 
@@ -33,7 +34,7 @@
     <!-- Logo -->
     <div class="logo d-flex align-items-center" id="logo">
       <a class="navbar-brand m-0 p-0" href="index.html">
-        <img src="images/neelakant logo.png" alt="Neelakant Impex Logo" class="logoimg">
+        <img src="https://res.cloudinary.com/di1bfo7ma/image/upload/v1755774681/neelakant_logo_jcks7i.png" alt="Neelakant Impex Logo" class="logoimg">
       </a>
     
 
@@ -47,7 +48,7 @@
     <!-- Collapsible Menu -->
     <div class="collapse navbar-collapse" id="mainMenu">
       <ul class="navbar-nav ml-auto menu">
-        <li class="nav-item mr-lg-4 mr-3 active"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item mr-lg-4 mr-3 "><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item mr-lg-4 mr-3"><a class="nav-link" href="aboutus.html">About Us</a></li>
 
         <!-- Products Dropdown -->
@@ -80,62 +81,68 @@
 
   <div class="contact-banner">
   <h1>Contact Us</h1>
-  </div>
+</div>
 
-  <section class="contact-section">
-    <div class="container">
-      <div class="contact-heading">
-        <h2>Contact Neelakant Impex</h2>
-        <p class="text-muted">We would love to hear from you. Please reach out for business inquiries or product information.</p>
-      </div>
-
-      <div class="row">
-  <div class="col-md-6 mb-4">
-    <form id="contactForm">
-      <div class="mb-3">
-        <label for="name" class="form-label">Your Name</label>
-        <input type="text" class="form-control" id="name" required>
-      </div>
-
-      <div class="mb-3">
-        <label for="email" class="form-label">Your Email</label>
-        <input type="email" class="form-control" id="email" required>
-      </div>
-
-      <div class="mb-3">
-        <label for="phone" class="form-label">Phone Number</label>
-        <input type="tel" class="form-control" id="phone" required>
-      </div>
-
-      <div class="mb-3">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" rows="5" required></textarea>
-      </div>
-
-      <button type="submit" class="btn btn-contact">Send Message</button>
-    </form>
-        <p id="responseMessage" class="mt-2"></p>
-      </div>
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-heading">
+      <h2>Contact Neelakant Impex</h2>
+      <p class="text-muted">
+        We would love to hear from you. Please reach out for business inquiries or product information.
+      </p>
     </div>
 
-        <div class="col-md-6">
-          <h5 class="mb-3">Neelakant Impex Address</h5>
-          <p>
-            Neelakant Impex Pvt Ltd<br>
-            Plot no: 201,Pokalwada,
-            Manikonda, Hyderabad-500089
-            Telangana, India<br>
-            Phone: +91 90000 87089<br>
-            Email: neelakantimpex@gmail.com
-          </p>
-
-          <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.131935477841!2d78.3874637!3d17.405454900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97598ac01211%3A0xcef5375248dfb65d!2sSunrise%20residency!5e0!3m2!1sen!2sin!4v1754979909619!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="row">
+      <!-- Left Side: Contact Form -->
+      <div class="col-md-6 mb-4">
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required>
           </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-contact">Send Message</button>
+        </form>
+        <p id="responseMessage" class="mt-2"></p>
+      </div>
+
+      <!-- Right Side: Address + Map -->
+      <div class="col-md-6">
+        <h5 class="mb-3">Neelakant Impex Address</h5>
+        <p>
+          Neelakant Impex Pvt Ltd<br>
+          Flat no: 201,MIG-6,<br>
+          Manikonda, Hyderabad-500089<br>
+          Telangana, India<br>
+          Phone: +91 90000 87089<br>
+          Email: neelakantimpex@gmail.com
+        </p>
+
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.131935477841!2d78.3874637!3d17.405454900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97598ac01211%3A0xcef5375248dfb65d!2sSunrise%20residency!5e0!3m2!1sen!2sin!4v1754979909619!5m2!1sen!2sin" 
+            width="600" height="450" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 <!-- footer -->
 <footer class="footer-section py-5">
@@ -189,7 +196,7 @@
         <p class="mb-0 copyright">
           &copy; 2025 NEELAKANT IMPEX. All Rights Reserved | Designed by 
         <a href="https://brick2tech.com/" target="_blank">
-         <img src="images/B2T_favicon.png" alt="Brick2Tech Logo" style="height: 18px; width:auto; margin-right:1px;">
+         <img src="https://res.cloudinary.com/di1bfo7ma/image/upload/v1755780667/B2T_favicon_pqsioi.png" alt="Brick2Tech Logo" style="height: 18px; width:auto; margin-right:1px;">
            Brick2Tech
         </a>
         </p>
@@ -199,9 +206,9 @@
 <!-- //footer -->
 
 <!-- Scripts -->
-  <script src="js/scrollnavbar.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
   <script>
     AOS.init();
   </script>

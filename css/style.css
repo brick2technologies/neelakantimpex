@@ -11,18 +11,8 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-/* Navbar style after scrolling */
-nav.scrolled {
-    background-color: #359928 !important; /* Light green */
-}
 
-/* active-color change to white */
-/* Default active state for Home */
-.menu li.active a {
-    color: #199d08; /* Green at top */
-    font-weight: 800;
-    font-size: 1.2rem;
-}
+
 
 /* When navbar is scrolled, Home becomes white */
 nav.scrolled .menu li.active a {
@@ -52,8 +42,8 @@ body a,
 
 
 .logoimg {
-  max-height: 80px;
-  width: 130px;
+  max-height: 140px;
+  width: 160px;
   display: block;
   object-fit: contain;
   
@@ -479,6 +469,7 @@ li > a:only-child:after {
   color: #fff !important; /* dark text for contrast */
 }
 
+/* responsive green color */
 /* Mobile view: always fixed + green background */
 /* Mobile view  navbar */
 @media (max-width: 991px) {
@@ -487,7 +478,7 @@ li > a:only-child:after {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(31, 175, 31); /* green fixed navbar */
+    /*background-color: #e7b868; /* green fixed navbar */
     padding: 0.1rem 0.2rem !important; /* reduce height */
     z-index: 1000;
     max-height: 70px !important;  
@@ -500,7 +491,7 @@ li > a:only-child:after {
 
   /* Smaller logo in mobile */
   #mainNav .logoimg {
-    max-height: 64px !important;
+    max-height: 70px !important;
     
   }
 
@@ -564,8 +555,6 @@ li > a:only-child:after {
     font-size: inherit;
   }
 }
-
-
 
 
 /* banner carousel-text mobile*/
@@ -846,8 +835,8 @@ body {
 /* Custom Green Explore Button */
 /* Fixed Green Explore Button */
 .btn-explore {
-  background-color: #169206 !important; /* ✅ Fixed green */
-  color: #ffffff !important;            /* ✅ Fixed white text */
+  background-color: #bd8661 !important; /* ✅ Fixed green */
+  color: #fffdfd !important;            /* ✅ Fixed white text */
   font-weight: 600;
   padding: 10px 30px;
   border-radius: 30px;
@@ -1019,7 +1008,7 @@ body {
 /* products overlay */
 .products-bg {
   position: relative;
-  background: url('../images/grains\ banner.jpg') center/cover no-repeat;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755684313/prod_bg_iooklv.jpg') center/cover no-repeat;
   background-color: #eae8e6; /* fallback background */
   padding: 5rem 0;
   overflow: hidden;
@@ -1445,7 +1434,7 @@ h3.tittle-w3ls {
 
 /* Parallax Section */
 .parallax-highlight {
-  background: url('../images/sweetcorn\ background.jpg') center center / cover no-repeat fixed;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755686298/driven_bg_rzraup.jpg') center center / cover no-repeat fixed;
   position: relative;
   height: 100vh;
   display: flex;
@@ -1634,7 +1623,7 @@ ul.partners-icon li {
 
 /* certifications page */
 .cert-banner {
-  background: url('../images/agriculture-healthy-food.jpg') center center/cover no-repeat;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755752970/certification_bg_r1p7pg.jpg') center center/cover no-repeat;
   height: 300px;
   position: relative;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
@@ -1693,7 +1682,7 @@ ul.partners-icon li {
 
 /* Banner Section */
 .contact-banner {
-  background: url('../images/cargo\ ship.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755753231/contact_bg_qyxjhj.jpg') no-repeat center center/cover;
   height: 300px;
   display: flex;
   align-items: center;
@@ -2695,4 +2684,81 @@ html, body {
   color: #0056b3;           /* darker blue on hover */
   text-decoration: underline;
 }
+
+
+/* home button change */
+/* Lock navbar links */
+.navbar-nav {
+  display: flex;
+  gap: 25px; /* equal spacing between items */
+}
+
+.navbar-nav .nav-link {
+  display: inline-block;
+  min-width: 110px;                 /* fix width so hover can't shrink/expand */
+  text-align: center;               /* center text */
+  font-size: 16px;
+  font-weight: 1100;
+  font-size: large;
+  padding: 12px 20px;
+  line-height: 1.5;
+  color: #d99880 !important;
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  transition: none !important;
+  box-sizing: border-box;           /* ensures padding stays inside width */
+}
+
+.navbar-nav .nav-link:hover {
+    background: #28a745;  /* green highlight on hover */
+    color: #fff;          /* text stays white */
+    border-radius: 5px;
+  }
+
+
+.navbar-light .navbar-toggler {
+  border-color: #fefefe;  /* white border */
+}
+
+
+/* Mobile/toggle menu hover highlight navbarhover*/
+@media (max-width: 991.98px) {
+  /* Optional: give the dropdown panel a background so white text is readable */
+  #mainNav .navbar-collapse {
+    background: #111;              /* tweak if you want */
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+
+  /* Make each item a full-width tappable row */
+  #mainNav .navbar-nav .nav-link {
+    display: block;
+    padding: 5px 10px !important; /* lock padding to stop shifting */
+    border-radius: 3px;
+    color: #fff !important;        /* white text in mobile menu */
+    background: transparent !important;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  /* Use hover + focus + active so it works on touch, too */
+  #mainNav .navbar-nav .nav-link:hover,
+  #mainNav .navbar-nav .nav-link:focus,
+  #mainNav .navbar-nav .nav-link:active,
+  #mainNav .navbar-nav .nav-link:focus-visible {
+    background: #a26332 !important;  
+    color: #fff !important;
+  }
+}
+/*
+
+/* Default nav links in brown
+#mainNav .navbar-nav .nav-link {
+  color: #fefefe !important;   
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+*/
+
 

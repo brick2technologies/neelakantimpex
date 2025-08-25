@@ -4,7 +4,7 @@
 
     /* Hero Section */
     .hero-overlay {
-      background: url('../images/grains\ banner.jpg') center/cover no-repeat;
+      background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755684313/prod_bg_iooklv.jpg') center/cover no-repeat;
       min-height: 420px;
       color: white;
       text-align: center;
@@ -57,7 +57,7 @@
 
     /* Mission Section */
     .mission-section {
-    background: url('../images/sweetcorn\ background.jpg') center/cover no-repeat;
+    background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755686298/driven_bg_rzraup.jpg') center/cover no-repeat;
     color: white;
     padding: 60px 20px;
     position: relative;
