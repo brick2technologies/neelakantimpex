@@ -97,12 +97,12 @@
 
     .product-title {
       color: #fff;
-      font-weight: 600;
+      font-weight: 450;
       margin-top: 10px;
     }
 
     .nonbasmati-rice-section {
-  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755751947/nonbasmati_banner_lq3lkp.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/di1bfo7ma/image/upload/v1755751947/nonbasmati_banner_lq3lkp.jpg' ) no-repeat center center/cover;
   position: relative;
   padding: 60px 0;
 }
